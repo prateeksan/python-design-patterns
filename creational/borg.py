@@ -5,13 +5,14 @@ Notes:
 
 Originally proposed by Alex Martelli, the Borg Pattern improves upon the classical
 Singleton pattern by questioning the point of a Singleton. While a Singleton
-design pattern mandates that all objects representation a Singleton must share 
-the same identity (point to the same instance of the class), the Borg pattern
-allows all instances to have unique identities while ensuring they all share
-the same state (all attributes of the instances point to the same dictionary).
+design pattern mandates that all objects representing a Singleton must share 
+the same identity (point to the same instance of a class), the Borg pattern
+allows all representations to have unique identities (instances) while ensuring that 
+they all share the same state (all attributes of the instances point to the same 
+dictionary).
 
 Many Python developers consider the Singleton to be an anti-pattern (If all 
-representations are to refer to the same instance, why not just use a class-less 
+representations are to point to the same instance, why not just use a class-less 
 module with functions and variables?). The Borg pattern solves this problem by 
 allowing for a shared state while simultaenously allowing for meaningful inheritance
 and preservation of object identities.
@@ -40,7 +41,7 @@ class ChildBorg(Borg):
         This will ensure the instance has access to all of the `_shared_state`
         attributes, and that its attribute assigments will update the shared state."""
 
-        # Construct the Borg before assigning attributes to bind the shared attributes.
+        # Construct the Borg before setting attributes to bind the shared state.
         Borg.__init__(self)
         # How attributes are assigned henceforth depends entirely on your needs.
         # This example allows the constructor to accept and assign multiple unknown attributes.
@@ -51,10 +52,10 @@ class ChildBorg(Borg):
 
 if __name__ == '__main__':
 
-    # Let's imagine our borg represents a type of video game character.
+    # Let's imagine our Borg represents a type of video game character.
     cb1 = ChildBorg(health=100, attack=15)
 
-    # Let's suppose that some in-game event causes all borgs to become 10% healthier
+    # Let's suppose that some in-game event causes all Borgs to become 10% healthier
     # and gain an armour worth 20 points.
 
     # Creating a new ChildBorg after the aformenetioned ingame event.
