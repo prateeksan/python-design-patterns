@@ -6,7 +6,7 @@ Please feel free to suggest modifications/updates. This project is a work in pro
 
 ## Index
 
-This index is a roadmap of what's to come (updates expected). Modules that are complete will be underllined.
+This index is a roadmap of what's to come (updates expected). Modules that are complete will be highlighted.
 
 + Creational Patterns (`creational/`)
     + __Singleton__ (`singleton.py`)
