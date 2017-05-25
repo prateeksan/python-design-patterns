@@ -61,10 +61,12 @@ if __name__ == '__main__':
     # Creating a new ChildBorg after the aformenetioned ingame event.
     cb2 = ChildBorg(health=110, attack=15, armour=20)
 
-    print("Do cb1 and cb2 share the same identity?")
-    print(cb1 is cb2) # False
+    # Tests
+
+    print("Do cb1 and cb2 have separate identities?")
+    print(cb1 is not cb2) # True
 
     print("Do cb1 and cb2 share the same state?")
-    print("Health: {}".format(cb1.health == cb2.health)) # True
-    print("Attack: {}".format(cb1.attack == cb2.attack)) # True
-    print("Armour: {}".format(cb1.armour == cb2.armour)) # True (note how cb1 also has armour)
+    print("Health: {}".format(cb1.health == cb2.health == 110)) # True
+    print("Attack: {}".format(cb1.attack == cb2.attack == 15)) # True
+    print("Armour: {}".format(cb1.armour == cb2.armour == 20)) # True (note how cb1 also has armour)
