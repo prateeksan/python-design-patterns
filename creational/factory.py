@@ -1,4 +1,4 @@
-""" The Factory Pattern
+""" The Factory Method Pattern
 
 Notes:
 
@@ -23,17 +23,20 @@ class Parent(object):
 
         return False
 
-class HappyChild(Parent):
+class TypeAChild(Parent):
     pass
 
-class UnhappyChild(Parent):
+class TypeBChild(Parent):
     pass
 
 def child_generator(count, parent, life_min, life_max):
+
     types = parent.__subclasses__()
     for i in range(count):
-        yield {"class": random.choice(types).__name__, 
-            "lifespan": random.randint(life_min, life_max)}
+        yield { 
+            "class": random.choice(types).__name__, 
+            "lifespan": random.randint(life_min, life_max)
+        }
 
 if __name__ == '__main__':
 
