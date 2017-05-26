@@ -8,14 +8,14 @@ Please feel free to suggest modifications/updates. This project is a work in pro
 
 This index is a roadmap of what's to come (updates expected). Modules that are complete will be highlighted.
 
-+ [Creational Patterns](https://github.com/prateeksan/python-design-patterns/tree/master/creational)
++ [**Creational Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/creational)
     + [Singleton](https://github.com/prateeksan/python-design-patterns/tree/master/creational/singleton.py)
     + [Borg](https://github.com/prateeksan/python-design-patterns/tree/master/creational/borg.py)
     + [Factory](https://github.com/prateeksan/python-design-patterns/tree/master/creational/factory.py)
     + Builder
     + Pool
     + Prototype
-+ Structural Patterns (`structural/`)
++ [**Structural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/structural)
     + Decorator
     + Facade
     + Proxy
@@ -25,5 +25,5 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + Composite
     + Fronting
     + MVC
-+ Behavioural Patterns (`behavioural/`)
++ [**Behavioural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural)
     + TBD
