@@ -1,4 +1,3 @@
-
 """ The Borg Pattern
 
 Notes:
