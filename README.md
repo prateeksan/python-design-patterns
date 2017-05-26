@@ -11,8 +11,7 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
 + Creational Patterns (`creational/`)
     + __Singleton__ (`singleton.py`)
     + __Borg__ (`borg.py`)
-    + Abstract Factory
-    + Factory Method
+    + __Factory__ (`factory.py`)
     + Builder
     + Pool
     + Prototype
@@ -26,6 +25,5 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + Composite
     + Fronting
     + MVC
-    + MVVM
 + Behavioural Patterns (`behavioural/`)
     + TBD
