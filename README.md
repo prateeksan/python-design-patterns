@@ -8,10 +8,10 @@ Please feel free to suggest modifications/updates. This project is a work in pro
 
 This index is a roadmap of what's to come (updates expected). Modules that are complete will be highlighted.
 
-+ Creational Patterns (`creational/`)
-    + __Singleton__ (`singleton.py`)
-    + __Borg__ (`borg.py`)
-    + __Factory__ (`factory.py`)
++ [Creational Patterns](https://github.com/prateeksan/python-design-patterns/tree/master/creational)
+    + [Singleton](https://github.com/prateeksan/python-design-patterns/tree/master/creational/singleton.py)
+    + [Borg](https://github.com/prateeksan/python-design-patterns/tree/master/creational/borg.py)
+    + [Factory](https://github.com/prateeksan/python-design-patterns/tree/master/creational/factory.py)
     + Builder
     + Pool
     + Prototype
