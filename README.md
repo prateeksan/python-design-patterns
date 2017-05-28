@@ -12,7 +12,7 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + [Singleton](https://github.com/prateeksan/python-design-patterns/tree/master/creational/singleton.py)
     + [Borg](https://github.com/prateeksan/python-design-patterns/tree/master/creational/borg.py)
     + [Factory](https://github.com/prateeksan/python-design-patterns/tree/master/creational/factory.py)
-    + Builder
+    + [Builder](https://github.com/prateeksan/python-design-patterns/tree/master/creational/builder.py)
     + Pool
     + Prototype
 + [**Structural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/structural)
