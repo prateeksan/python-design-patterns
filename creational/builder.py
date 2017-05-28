@@ -105,11 +105,11 @@ class Meal():
 
         print("Order Type : {}".format(product.name))
         print("Food       : {}".format(
-            (", ").join(product.food))
-        )
+            (", ").join(product.food)
+        ))
         print("Cutlery    : {}".format(
-            (", ").join(product.cutlery))
-        )
+            (", ").join(product.cutlery)
+        ))
         print("Package    : {}".format(self.package))
         print("Bill       : {}".format(self.bill))
         print("\n")
