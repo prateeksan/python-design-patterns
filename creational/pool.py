@@ -26,12 +26,10 @@ class WorkerPoolError(Exception):
     pertinent to the pattern, its always good to have a base error class if your
     module implements custom errors (for testing/error-handling etc.).
     """
-
     pass
 
 class OverLimitError(WorkerPoolError):
     """Raised when too many workers are created."""
-
     pass
 
 class WorkerBusyError(WorkerPoolError):
@@ -43,7 +41,6 @@ class Worker:
     this demo but it could built in a manner with internal state and other
     properties.
     """
-
     pass
 
 class WorkerPool:
