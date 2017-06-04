@@ -14,7 +14,7 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + [Factory](https://github.com/prateeksan/python-design-patterns/tree/master/creational/factory.py)
     + [Builder](https://github.com/prateeksan/python-design-patterns/tree/master/creational/builder.py)
     + [Pool](https://github.com/prateeksan/python-design-patterns/tree/master/creational/pool.py)
-    + Prototype
+    + [Prototype](https://github.com/prateeksan/python-design-patterns/tree/master/creational/prototype.py)
 + [**Structural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/structural)
     + Decorator
     + Facade
