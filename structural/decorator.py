@@ -1,3 +1,10 @@
+""" The Decorator Pattern
+
+Notes:
+
+
+"""
+
 def validate_inputs(decorators):
 
     def decorate(cls):
@@ -9,21 +16,18 @@ def validate_inputs(decorators):
         return cls
     return decorate
 
-
 def is_string(func):
     def wrapper(self, text):
         if type(text) is not str:
             return "'{}' is invalid. Input should be a string.".format(text)
         return func(self, text)
-
     return wrapper
 
 def is_lowercase(func):
     def wrapper(self, text):
         if not text.islower():
             return "'{}' is invalid. Input should be lowercase.".format(text)
-        return func(self, text)
-        
+        return func(self, text)  
     return wrapper
 
 @validate_inputs([is_string, is_lowercase])
@@ -52,6 +56,6 @@ if __name__ == "__main__":
     print(form.input_team_name("bobrockers"))
 
     print("\n" + "Attempting to input comments:")
-    print(form.special_input_comments("THIS IS MY COMMENT"))
+    print(form.special_input_comments("THIS IS ALL UPPERCASE"))
 
     print("\n")
