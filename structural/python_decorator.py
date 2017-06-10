@@ -1,7 +1,7 @@
-""" The Decorator Pattern
+""" Python Decorators
 
-Notes:
-
+Notes: This is NOT the decorator pattern. It is an example a really useful way
+to harness the power of python decorators.
 
 """
 
