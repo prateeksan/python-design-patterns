@@ -17,7 +17,7 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + [Prototype](https://github.com/prateeksan/python-design-patterns/tree/master/creational/prototype.py)
 + [**Structural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/structural)
     + [Pythonesque Decorator](https://github.com/prateeksan/python-design-patterns/tree/master/structural/pythonesque_decorator.py)
-    + Facade
+    + [Facade](https://github.com/prateeksan/python-design-patterns/tree/master/structural/facade.py)
     + Proxy
     + Flyweight
     + Adapter
