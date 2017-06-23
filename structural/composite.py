@@ -74,18 +74,22 @@ if __name__ == "__main__":
     ruby = DataNode("Ruby")
     english = DataNode("English")
     french = DataNode("French")
+
     # Creating composite data nodes.
     lang_tree = DataComposite("Languages")
     programming_lang_tree = DataComposite("Programming Languages")
     human_lang_tree = DataComposite("Human Languages")
+
     # Adding primitive nodes as sub objects (children).
     programming_lang_tree.add(python)
     programming_lang_tree.add(ruby)
     human_lang_tree.add(english)
     human_lang_tree.add(french)
+
     # Adding composite nodes as sub objects (children).
     lang_tree.add(human_lang_tree)
     lang_tree.add(programming_lang_tree)
+
     # The read method call is type agnostic even though its behaviour differs.
     lang_tree.read()
 
