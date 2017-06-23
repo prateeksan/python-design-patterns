@@ -21,6 +21,6 @@ This index is a roadmap of what's to come (updates expected). Modules that are c
     + [Proxy](https://github.com/prateeksan/python-design-patterns/tree/master/structural/proxy.py)
     + [Flyweight](https://github.com/prateeksan/python-design-patterns/tree/master/structural/flyweight.py)
     + [Adapter](https://github.com/prateeksan/python-design-patterns/tree/master/structural/adapter.py)
-    + Composite
+    + [Composite](https://github.com/prateeksan/python-design-patterns/tree/master/structural/composite.py)
 + [**Behavioural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural)
     + TBD
