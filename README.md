@@ -24,3 +24,4 @@ Please feel free to suggest modifications/updates. This project is a work in pro
     + [Composite](https://github.com/prateeksan/python-design-patterns/tree/master/structural/composite.py)
 + [**Behavioural Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural)
     + [Chain of Responsibility](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/chain_of_responsibility.py)
+    + [Mediator](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/mediator.py)
