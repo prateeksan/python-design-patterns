@@ -27,3 +27,4 @@ Please feel free to suggest modifications/updates. This project is a work in pro
     + [Mediator](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/mediator.py)
     + [Observer](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/observer.py)
     + [Command](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/command.py)
+    + [Memento](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/memento.py)
