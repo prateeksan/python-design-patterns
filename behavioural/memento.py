@@ -2,7 +2,32 @@
 
 Notes:
 
+The Memento pattern allows an object to maintain a history of its state external
+to itself (thus allowing it to perform reverts). The need to maintain version 
+history or revert to an older state can be handled in several ways. The Command
+and Memento pattern offer two competing ways, each with its own pros and cons.
+The Command pattern allows the invoker to revert the Commands which caused
+the change of state while maintaining no knowledge of the state of the different
+versions. The Memento on the other hand does not log the actions that changed
+state; rather it caches a copy of the changed state at chosen iterations. 
 
+This makes the Command pattern more space efficient but potentially slower (each 
+actions must be un-performed in reverse order until a desired state is reached).
+It also introduces the problem of trying to revert Commands with a non-trivial
+action to undo its changes. The Memento pattern resolves the aforementioned
+problem and significantly improves time complexity of reverts (any recorded
+state can be reverted to in constant time), but it significantly worsens space
+complexity by storing a full copy of the changed state at every checkpoint.
+
+The following example simulates a virtual map builder which allows a user to
+build a tile based map, while being able to save checkpoints of their progress
+and return to an older state at any time. The Memento pattern depends on three
+objects - an 'Originator', implemented in this example as a 'MapBuilder' which
+stores the internal state that needs version controlling; a 'Caretaker',
+implemented as the 'CheckpointLog' which stores a historical log of different 
+versions of the originators state; and a 'Memento', in this case the
+'MapCheckpoint' which stores a saved version of the state (the map) along with
+other relevant meta data (a checkpoint message).
 """
 
 import copy
