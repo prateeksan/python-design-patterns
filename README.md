@@ -28,3 +28,4 @@ Please feel free to suggest modifications/updates. This project is a work in pro
     + [Observer](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/observer.py)
     + [Command](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/command.py)
     + [Memento](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/memento.py)
+    + [Registry](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/registry.py)
