@@ -1,12 +1,10 @@
 # Python Design Patterns
 
-The purpose of this project is to document my deep dive into the world of design patterns. All design patterns are divided into three categories (directories): **Creational**, **Structural** & **Behavioural**. Each pattern is contained within its own module (with its own `.py` script). Each module will contain a sample implementation along with some demonstrative tests and extensive documentation. Each module can be run as a standalone python script or imported into other scripts.
+The purpose of this project is to document my deep dive into the world of design patterns. All design patterns are divided into three categories (directories): **Creational**, **Structural** & **Behavioural**. Each pattern is contained within its own module (with its own `.py` script). Each module contains a sample implementation along with some demonstrative tests and extensive documentation. Each module can be run as a standalone python script or imported into other scripts.
 
-Please feel free to suggest modifications/updates. This project is a work in progress and all implementations are open to debate.
+Please feel free to suggest modifications/updates.
 
 ## Index
-
-(Currently being updated...)
 
 + [**Creational Patterns**](https://github.com/prateeksan/python-design-patterns/tree/master/creational)
     + [Singleton](https://github.com/prateeksan/python-design-patterns/tree/master/creational/singleton.py)
