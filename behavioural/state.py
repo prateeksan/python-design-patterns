@@ -5,7 +5,7 @@ allows an object to alter its behavior when its internal state changes.
 
 The following example simulates a TV and it's remote control.
 we assume that TV is On and when you press the button on remote control,
-it would turn Off the TV. then we change the button state for next time turn On
+it would turn Off the TV. then we change the button state for next time to turn On
 the Tv. every time you press the button it would turn On and Off the TV.
 """
 
