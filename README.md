@@ -28,3 +28,4 @@ Please feel free to suggest modifications/updates.
     + [Memento](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/memento.py)
     + [Registry](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/registry.py)
     + [Strategy](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/strategy.py)
+    + [State](https://github.com/prateeksan/python-design-patterns/tree/master/behavioural/state.py)
